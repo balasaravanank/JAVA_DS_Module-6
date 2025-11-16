@@ -4,11 +4,12 @@
 To write a C program to implement Tower of Hanoi
 
 ## Algorithm
-1.Read the input number Take an integer num from the user.
-2.Convert the number to a non-negative value Use Math.abs(num) and store it in n to handle negative numbers.
-3.Check if the number is zero If n == 0, set digit count to 1 (since zero has one digit).
-4.Count digits for non-zero numbers Repeatedly divide n by 10 and increment the counter until n becomes 0.
-5.Display the digit count Output the total number of digits.
+
+1. Read the input number Take an integer num from the user.
+2. Convert the number to a non-negative value Use Math.abs(num) and store it in n to handle negative numbers.
+3. Check if the number is zero If n == 0, set digit count to 1 (since zero has one digit).
+4. Count digits for non-zero numbers Repeatedly divide n by 10 and increment the counter until n becomes 0.
+5. Display the digit count Output the total number of digits.
     
 ## Program:
 ```java
